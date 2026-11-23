@@ -1,0 +1,61 @@
+{
+  "model": "OLMoE-1B-7B-0125-Instruct-4bit",
+  "slots_per_layer": 16,
+  "lengths": [
+    256,
+    512
+  ],
+  "protocol": "fresh model instance per arm, cold SSD page cache not purged (same condition both arms, rotated order)",
+  "L256": {
+    "prefill_s_off": [
+      4.727680333016906,
+      2.485566541989101
+    ],
+    "prefill_s_on": [
+      1.795280125021236,
+      1.0772984169889241
+    ],
+    "prefill_speedup": [
+      2.633,
+      2.307
+    ],
+    "decode_tps_off": [
+      11.97860657730814,
+      13.185489462975722
+    ],
+    "decode_tps_on": [
+      12.253198339045811,
+      13.588515956881807
+    ],
+    "streamer_stats": {
+      "staged": 1553,
+      "consumed": 1553
+    }
+  },
+  "L512": {
+    "prefill_s_off": [
+      4.063726332999067,
+      2.6732307079946622
+    ],
+    "prefill_s_on": [
+      1.8659561250242405,
+      1.2528365830075927
+    ],
+    "prefill_speedup": [
+      2.178,
+      2.134
+    ],
+    "decode_tps_off": [
+      11.034506156440415,
+      12.952408720048235
+    ],
+    "decode_tps_on": [
+      12.834542133577324,
+      11.225375015403774
+    ],
+    "streamer_stats": {
+      "staged": 1558,
+      "consumed": 1558
+    }
+  }
+}

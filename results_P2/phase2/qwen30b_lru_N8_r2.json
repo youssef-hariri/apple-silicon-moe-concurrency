@@ -1,0 +1,65 @@
+{
+  "model": "qwen30b",
+  "arm": "lru",
+  "level": 8,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.9068941915113762
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.905445280802601
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.9030931547909121
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.9010073465987755
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.9004372247432098
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.8995825457985661
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.8983625844999547
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.8968791976189431
+    }
+  ],
+  "per_user_mean_tok_s": [
+    0.8968791976189431,
+    0.8983625844999547,
+    0.8995825457985661,
+    0.9004372247432098,
+    0.9010073465987755,
+    0.9030931547909121,
+    0.905445280802601,
+    0.9068941915113762
+  ],
+  "p05_tok_s": 0.8973983830272971,
+  "above_floor": false,
+  "total_s": 111.49775624999893,
+  "engine_stats": {
+    "hits": 279005,
+    "misses": 51723,
+    "evictions": 46238,
+    "load_seconds": 104.79778005814296
+  },
+  "ts": "2026-11-22 13:36:10",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

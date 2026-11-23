@@ -1,0 +1,35 @@
+{
+  "model": "qwen30b",
+  "arm": "lru",
+  "level": 2,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.091498654053438
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.078675830502008
+    }
+  ],
+  "per_user_mean_tok_s": [
+    5.078675830502008,
+    5.091498654053438
+  ],
+  "p05_tok_s": 5.07931697167958,
+  "above_floor": false,
+  "total_s": 19.69017383400933,
+  "engine_stats": {
+    "hits": 75823,
+    "misses": 6545,
+    "evictions": 2890,
+    "load_seconds": 30.228647119249217
+  },
+  "ts": "2026-11-22 10:55:04",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

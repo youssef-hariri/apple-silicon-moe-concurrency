@@ -1,0 +1,103 @@
+{
+  "model": "olmoe",
+  "arm": "static",
+  "level": 16,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.20008151021652
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.193840931032327
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.187658652039973
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.181376673330014
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.174992019951409
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.168762477596154
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.162369604958275
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.155718468335392
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.149421338834241
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.142990195400554
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.136494766904624
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.130055761237893
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.123836880529852
+    },
+    {
+      "n_tokens": 10,
+      "mean_tok_s": 8.576443038770257
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 9.117707553568463
+    },
+    {
+      "n_tokens": 23,
+      "mean_tok_s": 8.79812931477372
+    }
+  ],
+  "per_user_mean_tok_s": [
+    8.576443038770257,
+    8.79812931477372,
+    9.117707553568463,
+    9.123836880529852,
+    9.130055761237893,
+    9.136494766904624,
+    9.142990195400554,
+    9.149421338834241,
+    9.155718468335392,
+    9.162369604958275,
+    9.168762477596154,
+    9.174992019951409,
+    9.181376673330014,
+    9.187658652039973,
+    9.193840931032327,
+    9.20008151021652
+  ],
+  "p05_tok_s": 8.742707745772854,
+  "above_floor": false,
+  "total_s": 10.967670999991242,
+  "engine_stats": {
+    "loads": 1024,
+    "stack_hits": 491008
+  },
+  "ts": "2026-11-22 13:45:26",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

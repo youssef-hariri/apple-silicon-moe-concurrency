@@ -1,0 +1,65 @@
+{
+  "model": "qwen15",
+  "arm": "lru",
+  "level": 8,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2489209622156314
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2475253580187944
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2458677693837616
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2447702959864921
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2424112048244453
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2405928448578079
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2390713270059137
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 1.2375456435939218
+    }
+  ],
+  "per_user_mean_tok_s": [
+    1.2375456435939218,
+    1.2390713270059137,
+    1.2405928448578079,
+    1.2424112048244453,
+    1.2447702959864921,
+    1.2458677693837616,
+    1.2475253580187944,
+    1.2489209622156314
+  ],
+  "p05_tok_s": 1.238079632788119,
+  "above_floor": false,
+  "total_s": 80.80510291599785,
+  "engine_stats": {
+    "hits": 67665,
+    "misses": 18295,
+    "evictions": 15787,
+    "load_seconds": 45.40381177965901
+  },
+  "ts": "2026-11-22 13:00:01",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "model": "qwen15",
+  "arm": "lru",
+  "level": 12,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7962155260350234
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7956290091528652
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7949854822654782
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.794494138674081
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7932761196879042
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7925590529905688
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.791955263785464
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7912261655831523
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7905961234364204
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7897857308951702
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7893758774275544
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 0.7888160205298967
+    }
+  ],
+  "per_user_mean_tok_s": [
+    0.7888160205298967,
+    0.7893758774275544,
+    0.7897857308951702,
+    0.7905961234364204,
+    0.7912261655831523,
+    0.791955263785464,
+    0.7925590529905688,
+    0.7932761196879042,
+    0.794494138674081,
+    0.7949854822654782,
+    0.7956290091528652,
+    0.7962155260350234
+  ],
+  "p05_tok_s": 0.7891239418236085,
+  "above_floor": false,
+  "total_s": 126.77227508299984,
+  "engine_stats": {
+    "hits": 103046,
+    "misses": 26313,
+    "evictions": 22810,
+    "load_seconds": 69.40738339695963
+  },
+  "ts": "2026-11-22 10:46:24",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

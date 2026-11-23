@@ -1,0 +1,26 @@
+{
+  "model": "Qwen3-235B-A22B-4bit",
+  "machine": "16 GB M1 Pro",
+  "slots_per_layer": 8,
+  "prompt": "The capital of France is",
+  "n_tokens": 5,
+  "load_s": 0.51154191698879,
+  "rss_after_load_gb": 0.541248,
+  "prefill_s": 15.817571708990727,
+  "per_token_s": [
+    47.00570949999383,
+    29.08054062500014,
+    29.22326699999394,
+    33.91561674998957
+  ],
+  "text": " Paris. The capital of",
+  "peak_rss_gb": 0.075168,
+  "engine_stats": {
+    "hits": 1061,
+    "misses": 4366,
+    "evictions": 1947,
+    "slot_writes": 2699,
+    "load_seconds": 98.43772921236814,
+    "load_bytes": 46356546384
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "model": "olmoe",
+  "arm": "lru",
+  "level": 8,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.3618479486133026
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.3559284077783538
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.348559624612179
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.343776090069598
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.334089615995874
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.329376932955821
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.323558963339255
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 3.318877170935887
+    }
+  ],
+  "per_user_mean_tok_s": [
+    3.318877170935887,
+    3.323558963339255,
+    3.329376932955821,
+    3.334089615995874,
+    3.343776090069598,
+    3.348559624612179,
+    3.3559284077783538,
+    3.3618479486133026
+  ],
+  "p05_tok_s": 3.3205157982770657,
+  "above_floor": false,
+  "total_s": 30.130674332991475,
+  "engine_stats": {
+    "hits": 94003,
+    "misses": 15213,
+    "evictions": 13503,
+    "load_seconds": 22.243722559098387
+  },
+  "ts": "2026-11-22 06:47:32",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

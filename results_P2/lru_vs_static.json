@@ -1,0 +1,86 @@
+{
+  "model": "OLMoE-1B-7B-0125-Instruct-4bit",
+  "pin_frac": 0.25,
+  "slots_per_layer": 16,
+  "max_new": 200,
+  "stock": {
+    "tg_median": 138.78226520928212
+  },
+  "static_pin": {
+    "tg_median": 14.120904510760194,
+    "tg_per_prompt": [
+      10.876588194988772,
+      10.153839605613895,
+      14.398074782727637,
+      14.397471123646692,
+      14.120904510760194
+    ],
+    "stats": {
+      "pin_hits": 0,
+      "cold_hits": 25038,
+      "loads": 19440,
+      "stack_hits": 42924
+    }
+  },
+  "lru_cold_start": {
+    "tg_median": 16.12003665177868,
+    "tg_per_prompt": [
+      13.997891066497562,
+      12.928189408158936,
+      17.00873205772769,
+      16.12003665177868,
+      17.151076223078377
+    ],
+    "stats": {
+      "hits": 49163,
+      "misses": 35681,
+      "evictions": 33397,
+      "slot_writes": 33653,
+      "load_seconds": 25.966308922535973,
+      "load_bytes": 126300749320
+    },
+    "hit_rate": 0.5794516995898354
+  },
+  "lru_warm": {
+    "tg_median": 16.19837369638984,
+    "tg_per_prompt": [
+      14.228960727543077,
+      13.960385581737846,
+      16.84085438096323,
+      16.19837369638984,
+      17.69263834662241
+    ],
+    "stats": {
+      "hits": 63305,
+      "misses": 49521,
+      "evictions": 46391,
+      "slot_writes": 46647,
+      "load_seconds": 35.950835170195205,
+      "load_bytes": 175290474120
+    },
+    "hit_rate": 0.5610852108556539
+  },
+  "parity": {
+    "static_vs_stock": [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    "lru_cold_vs_stock": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "lru_warm_vs_stock": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+}

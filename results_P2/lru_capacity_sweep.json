@@ -1,0 +1,123 @@
+{
+  "model": "OLMoE-1B-7B-0125-Instruct-4bit",
+  "max_new": 150,
+  "sweep": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "note": "warm start: 1 warmup prompt untimed",
+  "S16": {
+    "lru": {
+      "tg_median": 12.787146928273815,
+      "tg_per_prompt": [
+        12.737260687333888,
+        12.787146928273815,
+        15.007800215525556
+      ],
+      "hit_rate": 0.5411581620116308,
+      "stats": {
+        "hits": 33035,
+        "misses": 28010,
+        "evictions": 26101,
+        "slot_writes": 26357,
+        "load_seconds": 23.325379361514933,
+        "load_bytes": 99147557200
+      }
+    },
+    "static": {
+      "tg_median": 11.207807424111373,
+      "stats": {
+        "cold_hits": 12167,
+        "loads": 9661,
+        "stack_hits": 21049
+      },
+      "hit_rate": 0.633700626204239
+    }
+  },
+  "S32": {
+    "lru": {
+      "tg_median": 20.27894056808591,
+      "tg_per_prompt": [
+        17.377884197369905,
+        20.27894056808591,
+        20.995961395085605
+      ],
+      "hit_rate": 0.7772007993971759,
+      "stats": {
+        "hits": 47445,
+        "misses": 13601,
+        "evictions": 12456,
+        "slot_writes": 12968,
+        "load_seconds": 16.3579399943701,
+        "load_bytes": 48143731720
+      }
+    },
+    "static": {
+      "tg_median": 18.034262466888677,
+      "stats": {
+        "cold_hits": 7951,
+        "loads": 3141,
+        "stack_hits": 32671
+      },
+      "hit_rate": 0.804268622913692
+    }
+  },
+  "S48": {
+    "lru": {
+      "tg_median": 52.947494935963036,
+      "tg_per_prompt": [
+        47.141451039723044,
+        57.501725961084446,
+        52.947494935963036
+      ],
+      "hit_rate": 0.9258919503325361,
+      "stats": {
+        "hits": 56522,
+        "misses": 4524,
+        "evictions": 3752,
+        "slot_writes": 4520,
+        "load_seconds": 5.518662808899535,
+        "load_bytes": 16013693280
+      }
+    },
+    "static": {
+      "tg_median": 37.14727385754474,
+      "stats": {
+        "cold_hits": 3034,
+        "loads": 1015,
+        "stack_hits": 40502
+      },
+      "hit_rate": 0.9303105475927967
+    }
+  },
+  "S64": {
+    "lru": {
+      "tg_median": 57.07335737446424,
+      "tg_per_prompt": [
+        43.4619430977108,
+        57.07335737446424,
+        72.45626095347889
+      ],
+      "hit_rate": 0.9833731939848639,
+      "stats": {
+        "hits": 60031,
+        "misses": 1015,
+        "evictions": 0,
+        "slot_writes": 1015,
+        "load_seconds": 2.319983889028663,
+        "load_bytes": 3592815800
+      }
+    },
+    "static": {
+      "tg_median": 84.75979131990876,
+      "stats": {
+        "cold_hits": 0,
+        "loads": 1015,
+        "stack_hits": 44160
+      },
+      "hit_rate": 1.0
+    }
+  }
+}

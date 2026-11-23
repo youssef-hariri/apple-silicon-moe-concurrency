@@ -1,0 +1,105 @@
+{
+  "model": "olmoeS64",
+  "arm": "lru",
+  "level": 16,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.83513048845818
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.831144091016619
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.827138136444829
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.823114144085636
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.8190728484955505
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.815112524140508
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.811193579551906
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.807244713821784
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.803377942467436
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.799426696964022
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.795388939723897
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.791410004041546
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.787457713203518
+    },
+    {
+      "n_tokens": 10,
+      "mean_tok_s": 5.173613089207341
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 5.783550896631337
+    },
+    {
+      "n_tokens": 23,
+      "mean_tok_s": 5.424726983761794
+    }
+  ],
+  "per_user_mean_tok_s": [
+    5.173613089207341,
+    5.424726983761794,
+    5.783550896631337,
+    5.787457713203518,
+    5.791410004041546,
+    5.795388939723897,
+    5.799426696964022,
+    5.803377942467436,
+    5.807244713821784,
+    5.811193579551906,
+    5.815112524140508,
+    5.8190728484955505,
+    5.823114144085636,
+    5.827138136444829,
+    5.831144091016619,
+    5.83513048845818
+  ],
+  "p05_tok_s": 5.361948510123181,
+  "above_floor": false,
+  "total_s": 17.29041770900949,
+  "engine_stats": {
+    "hits": 196250,
+    "misses": 1024,
+    "evictions": 0,
+    "load_seconds": 3.36778114590561
+  },
+  "ts": "2026-11-22 12:54:34",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "olmoeS64",
+  "arm": "lru",
+  "level": 4,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 10.996982088626298
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 10.969223895326012
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 10.941676763851174
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 10.914137357356479
+    }
+  ],
+  "per_user_mean_tok_s": [
+    10.914137357356479,
+    10.941676763851174,
+    10.969223895326012,
+    10.996982088626298
+  ],
+  "p05_tok_s": 10.918268268330683,
+  "above_floor": true,
+  "total_s": 9.162431417003972,
+  "engine_stats": {
+    "hits": 53514,
+    "misses": 1024,
+    "evictions": 0,
+    "load_seconds": 3.9789300332195126
+  },
+  "ts": "2026-11-22 09:29:46",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

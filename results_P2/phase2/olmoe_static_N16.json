@@ -1,0 +1,103 @@
+{
+  "model": "olmoe",
+  "arm": "static",
+  "level": 16,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.593722775360485
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.58772079686201
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.581738641578726
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.575802016310732
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.569642198914648
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.563614426679335
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.557569587730613
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.55131151945627
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.545561218903567
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.53926995550532
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.533061064697339
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.526979044193393
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.520811966076533
+    },
+    {
+      "n_tokens": 10,
+      "mean_tok_s": 8.259440312430533
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 8.514669722231003
+    },
+    {
+      "n_tokens": 23,
+      "mean_tok_s": 8.063211488947593
+    }
+  ],
+  "per_user_mean_tok_s": [
+    8.063211488947593,
+    8.259440312430533,
+    8.514669722231003,
+    8.520811966076533,
+    8.526979044193393,
+    8.533061064697339,
+    8.53926995550532,
+    8.545561218903567,
+    8.55131151945627,
+    8.557569587730613,
+    8.563614426679335,
+    8.569642198914648,
+    8.575802016310732,
+    8.581738641578726,
+    8.58772079686201,
+    8.593722775360485
+  ],
+  "p05_tok_s": 8.210383106559798,
+  "above_floor": false,
+  "total_s": 11.744440999988,
+  "engine_stats": {
+    "loads": 1024,
+    "stack_hits": 491008
+  },
+  "ts": "2026-11-22 06:57:07",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}

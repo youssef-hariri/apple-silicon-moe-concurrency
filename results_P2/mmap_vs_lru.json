@@ -1,0 +1,24 @@
+{
+  "model": "OLMoE-1B-7B-0125-Instruct-4bit",
+  "max_new": 150,
+  "note": "mmap arm: no explicit cache; kernel page cache is the tier. Warm start (1 warmup prompt). RSS includes ~1.2 GB backbone.",
+  "mmap": {
+    "tg_median": 5.654332734489073,
+    "tg_per_prompt": [
+      5.561511889167958,
+      5.654332734489073,
+      5.855468737965813
+    ],
+    "stats": {
+      "reads": 61046,
+      "read_seconds": 7.905145958182402
+    },
+    "rss_gb_before": 0.932848,
+    "rss_gb_after": 0.768928
+  },
+  "parity_vs_stock": [
+    false,
+    false,
+    false
+  ]
+}

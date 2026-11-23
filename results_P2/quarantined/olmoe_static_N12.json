@@ -1,0 +1,83 @@
+{
+  "model": "olmoe",
+  "arm": "static",
+  "level": 12,
+  "per_user": [
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 131.86594297903946
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 135.7238684230813
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 135.49547142969993
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 134.9513326801813
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 131.69732313940528
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 135.6685429889856
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 135.77099681059073
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 131.40110217672947
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 135.81366754770178
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 131.60307712310026
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 131.90707281561313
+    },
+    {
+      "n_tokens": 100,
+      "mean_tok_s": 133.55406113243222
+    }
+  ],
+  "per_user_mean_tok_s": [
+    131.40110217672947,
+    131.60307712310026,
+    131.69732313940528,
+    131.86594297903946,
+    131.90707281561313,
+    133.55406113243222,
+    134.9513326801813,
+    135.49547142969993,
+    135.6685429889856,
+    135.7238684230813,
+    135.77099681059073,
+    135.81366754770178
+  ],
+  "p05_tok_s": 131.51218839723342,
+  "above_floor": true,
+  "total_s": 8.972804999997607,
+  "engine_stats": {
+    "loads": 1024,
+    "stack_hits": 417280
+  },
+  "ts": "2026-11-22 06:41:13",
+  "thermal": "Error: unhandled argument thermstate; Usage: pmset <options>; See pmset(1) for details: 'man pmset'",
+  "protocol": {
+    "floor": 10.0,
+    "max_new": 100,
+    "note": "round-robin shared-engine concurrency"
+  }
+}
